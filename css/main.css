@@ -1,0 +1,203 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: #fafafa;
+  font-family: Helvetica, sans-serif;
+}
+
+a{
+  text-decoration: none;
+}
+
+main{
+  margin-top: 16px;
+  margin-bottom: 30px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+main .main-image{
+  width: 454px;
+  margin-left: -55px;
+}
+
+main .main-image img{
+  width: 454px;
+}
+
+main .main-login-container{
+  width: 348px;
+  height: 382px;
+  margin-top: 35px;
+}
+
+main .main-login{
+    border: 1px solid #dbdbdb;
+    margin-bottom: 10px;
+    background: #ffffff;
+}
+
+main .main-login-container .login-logo img{
+  width: 175px;
+  margin: 10px auto 10px auto; /*Auto para centrarlo repartiendo el espacio que sobra*/
+
+}
+
+main  .main-login-container .login-input {
+  width: 348px;
+  margin: 0 auto;
+  margin-bottom: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main .main-login-container .login-input-container{
+  width: 268px;
+  border-radius: 3px;
+  border: 1px solid #dbdbdb;
+  margin-bottom: 6px;
+}
+
+main .main-login-container .login-input-container input{
+  width: 258px;
+  height: 36px;
+  border: none;
+  outline: none;
+}
+
+main .main-login-container .login-input-container input:hover{
+  outline: #a8a8a8;
+}
+
+
+main .login-button{
+  width: 348px;
+  margin: 0 auto;
+}
+
+main .login-button button{
+  width: 269px;
+  height: 30px;
+  margin-bottom: 18px;
+  background-color: #b2dffc;
+  border: 0;
+  color: #fff;
+  border-radius: 3px;
+}
+
+main .login-button .login-separador-container{
+  margin-bottom: 25px;
+}
+
+main .login-button .login-separador-container div{
+  display: inline-block;
+}
+
+main .login-button .linea-i, main .login-button .linea-d{
+  width: 110px;
+  height: 1px;
+  background-color: #dbdbdb;
+  position: relative;
+  top: -6px;
+}
+
+main .login-button .linea-o{
+  color: #8e8e8e;
+  margin: 0 14px;
+  font-weight: bold;
+}
+
+main .login-facebook{
+  padding-bottom: 20px;
+}
+
+main .login-facebook .login-facebook-container{
+  user-select: none;
+  margin-bottom: 15px;
+}
+
+main .login-facebook a{
+  font-size: 12px;
+}
+
+main .login-facebook a:visited{
+  color: #385185;
+}
+
+main .login-facebook .login-facebook-container a{
+  margin-bottom: 5px;
+  color: #385185;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+main .login-facebook  img{
+  width: 16px;
+  height: 16px;
+  position: relative;
+  top: 2px;
+}
+
+main .login-registro{
+  height: 63px;
+  border: 1px solid #dbdbdb;
+  margin-bottom: 20px;
+  background: #ffffff;
+  font-size:  13px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+main .login-registro p{
+  margin-right: 5px;
+}
+
+main .login-registro a{
+  color: #0095f6;
+  font-weight: 600;
+}
+
+main .login-apps{
+  font-size: 12px;
+}
+
+main .login-apps img{
+  width: 136px;
+}
+
+main .login-apps p{
+  margin-bottom: 15px;
+}
+
+main .login-apps .login-apps-container a{
+  margin-right: 5px;
+}
+
+footer{
+  text-align: center;
+  color: #8e8e8e;
+  margin-bottom: 60px;
+}
+
+footer .footer-links div{
+  width: 800px;
+  margin: 0 auto 20px auto;
+}
+
+footer .footer-links div a, footer .footer-links div p{
+  margin-right: 14px;
+  font-size:  12px;
+  display: inline-block;
+}
+
+footer .footer-links div a:visited{
+  color: #8e8e8e;
+}
